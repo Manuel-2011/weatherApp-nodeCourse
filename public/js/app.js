@@ -1,5 +1,5 @@
 const weatherApi = (loca) => {
-    const url = `http://localhost:3000/weather?address=${loca}`
+    const url = `/weather?address=${loca}`
     const firstP = document.querySelector('#firstMessage')
     const secondP = document.querySelector('#secondMessage')
 
