@@ -43,7 +43,8 @@ app.get('/help', (req, res) => {
 // app.com/about
 app.get('/about', (req, res) => {
     res.render('about', {
-        'title': 'About page'
+        'title': 'About page',
+        'author': 'Manuel Mosquera'
     })
 })
 
